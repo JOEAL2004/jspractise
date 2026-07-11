@@ -37,3 +37,18 @@ console.log(ply);
 const fruits=['apple','orange','banana','grapes'];
 const up=fruits.map(fruit=>fruit.toUpperCase());
 console.log(up);
+
+const prices = [100, 250, 80, 500];
+const rupee=prices.map(price=>`₹${price}`);
+console.log(prices);
+console.log(rupee);
+
+const cities = ["kannur", "kochi", "calicut"];
+const CITY=cities.map(city=>city.charAt(0).toUpperCase()+city.slice(1));
+console.log(cities);
+console.log(CITY);
+
+const marks = [45, 60, 90, 75];
+const Marks=marks.map(mark=>`${mark} Marks`);
+console.log(marks);
+console.log(Marks);
